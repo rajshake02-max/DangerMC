@@ -1,8 +1,8 @@
 {
   "bot-account": {
-    "username": "${ELY_USER}", 
-    "password": "${ELY_PASS}",
-    "type": "ely"
+    "username": "Danger_MC_Guard", 
+    "password": "",
+    "type": "offline"
   },
 
   "server": {
@@ -20,8 +20,8 @@
 
   "utils": {
     "auto-auth": {
-      "enabled": false,
-      "password": ""
+      "enabled": true,
+      "password": "elybybot"
     },
 
     "anti-afk": {
