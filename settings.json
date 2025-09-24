@@ -1,0 +1,52 @@
+{
+  "bot-account": {
+    "username": "${ELY_USER}", 
+    "password": "${ELY_PASS}",
+    "type": "ely"
+  },
+
+  "server": {
+    "ip": "dangermc1.aternos.me", 
+    "port": 55195,   
+    "version": "1.12.2"
+  },
+  
+  "position": {
+    "enabled": false,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+
+  "utils": {
+    "auto-auth": {
+      "enabled": false,
+      "password": ""
+    },
+
+    "anti-afk": {
+      "enabled": true,
+      "sneak": true
+    },
+
+    "chat-messages": {
+      "enabled": true,
+      "repeat": true,
+      "repeat-delay": 60,
+
+      "messages": [
+        "Welcome to DangerMC!",
+        "I'm a regular player",
+        "My Woner Is Alex!",
+        "I'm a bot made by Alex",
+        "This server is made by Alex",
+        "Thanks for playing on this server"
+        
+      ]
+    },
+
+    "chat-log": true,
+    "auto-reconnect": true,
+    "auto-recconect-delay": 5000
+  }
+}
